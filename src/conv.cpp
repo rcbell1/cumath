@@ -1,4 +1,4 @@
-#include <math.h>
+#include <iostream>
 
 // Compute the convolution of two sequences.
 int conv(int* x, int* h, int* y, int N, int M) {
@@ -14,4 +14,4 @@ int conv(int* x, int* h, int* y, int N, int M) {
   return 0;
 }
 
-int main() {}
+int main() { std::cout << "Hello World!\n"; }
